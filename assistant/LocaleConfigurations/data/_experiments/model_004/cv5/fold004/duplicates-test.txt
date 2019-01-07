@@ -1,0 +1,3 @@
+Utterance	Intents
+next	l_VAPOCen_General, l_VAPOCen_ToDo
+cancel	l_VAPOCen_General, l_VAPOCen_ToDo

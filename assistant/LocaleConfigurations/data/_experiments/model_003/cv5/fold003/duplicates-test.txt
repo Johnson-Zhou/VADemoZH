@@ -1,0 +1,4 @@
+Utterance	Intents
+hi	l_VAPOCen_Email, l_VAPOCen_General
+previous	l_VAPOCen_Calendar, l_VAPOCen_General
+transfer me please	l_VAPOCen_Email, l_VAPOCen_General

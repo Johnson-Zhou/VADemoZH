@@ -1,0 +1,4 @@
+Utterance	Intents
+next	l_VAPOCen_General, l_VAPOCen_ToDo
+don't	l_VAPOCen_Email, l_VAPOCen_General
+never mind	l_VAPOCen_Email, l_VAPOCen_General

@@ -1,0 +1,3 @@
+Utterance	Intents
+why doesn't this work	l_VAPOCen_Email, l_VAPOCen_General
+sign out	l_VAPOCen_Email, l_VAPOCen_General

@@ -1,0 +1,6 @@
+Utterance	Intents
+good evening	l_VAPOCen_General, q_FAQ
+go to previous	l_VAPOCen_Email, l_VAPOCen_General
+cancel	l_VAPOCen_General, l_VAPOCen_ToDo
+hiya	l_VAPOCen_Email, l_VAPOCen_General
+how are you	l_VAPOCen_Email, l_VAPOCen_General

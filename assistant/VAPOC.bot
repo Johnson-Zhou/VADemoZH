@@ -1,0 +1,70 @@
+{
+    "name": "VAPOC",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "199",
+            "name": "VAPOC",
+            "tenantId": "a979b94d-0606-4cbf-a04a-3aefa05c4172",
+            "subscriptionId": "3bbd6196-2d92-42af-83d1-fb87779df4f2",
+            "resourceGroup": "VAPOC",
+            "serviceName": "VAPOC",
+            "appId": "d0171cf2-61f6-4e10-83a8-9970b16f3428"
+        },
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "d0171cf2-61f6-4e10-83a8-9970b16f3428",
+            "appPassword": "oJBHLl2lcJYmExk/Cpqe9g==!VwEzhjkLnsuhov28NKVjOsP+nXXExzdsZz+MD9o8bmo=",
+            "endpoint": "http://localhost:3979/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "108",
+            "name": "production",
+            "appId": "d0171cf2-61f6-4e10-83a8-9970b16f3428",
+            "appPassword": "yx3QEX7zALmuSxGEOR32aw==!O1pZORq1Rl11Kr9YCnYMIhzvBbeXqxOWpgyF1fzEVm8=",
+            "endpoint": "https://sag6.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "blob",
+            "id": "2",
+            "name": "2v7u",
+            "serviceName": "2v7u",
+            "tenantId": "a979b94d-0606-4cbf-a04a-3aefa05c4172",
+            "subscriptionId": "3bbd6196-2d92-42af-83d1-fb87779df4f2",
+            "resourceGroup": "VAPOC",
+            "connectionString": "kRdLUcMpWuTPBY36+5C65Q==!g/TRVnZ4pn0OspP0q3LtIUqTmEkLnkX40bzYQJQYpxWzO5Orvtpb6xIUawOWVdtfAhiSSEv2upANnYhDi04/Q2SE3xOuHJy4FxK2QvgY/k3fDkHbYUu9kHY1xpKP0Bm1/E8bUxpFqCBNKqPIlpI4S57xFyEC3rvVgQt/tIgB3zmZOsrDWZR1eED3byEaCnh4BRNRie4r64/sinUQW5135mFRncFYmvDxaVsUPcAapA3onOrP/669JmLvP0Bz52Yy",
+            "container": "transcripts"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "a979b94d-0606-4cbf-a04a-3aefa05c4172",
+            "subscriptionId": "3bbd6196-2d92-42af-83d1-fb87779df4f2",
+            "resourceGroup": "VAPOC",
+            "name": "VAPOCassl43",
+            "serviceName": "VAPOCassl43",
+            "instrumentationKey": "erOq+oG8/3GFTLQWratxrw==!1P3By8JD79ZSCXH9RdM5AuK/q3wpW4NuWFfYb5D3ESli/gkjrWyt28RDowKkk5MU",
+            "applicationId": "0e85ca50-1cfe-42f2-b799-758f583fc8a5",
+            "apiKeys": {},
+            "id": "3"
+        },
+        {
+            "type": "cosmosdb",
+            "id": "8",
+            "name": "vapoc",
+            "serviceName": "vapoc",
+            "tenantId": "a979b94d-0606-4cbf-a04a-3aefa05c4172",
+            "subscriptionId": "3bbd6196-2d92-42af-83d1-fb87779df4f2",
+            "resourceGroup": "VAPOC",
+            "endpoint": "https://vapoc.documents.azure.com:443/",
+            "key": "1w+4dvGvhxc5Qjgy1y0I4w==!HVbJ9CM5B+4lfinW2F+9MlpYky4AtbYBFiNDe9Myau4H3BYxMhTnbqGpLgECJcQ3dsQvguuxG40Laknd0AtF0/Z16b/FbT82urelK6jhwA5vv74cxqrI+l6P2SvluQO5",
+            "database": "botstate-db",
+            "collection": "botstate-collection"
+        }
+    ],
+    "padlock": "ECmC40tTSY/GVNvQW+w1ZQ==!MsTLAbv1p99LIk5F+53MPTqBu9m9x++ejRDxmPdDSE2QWxJ1cSveQE9ZECGXvLVM",
+    "version": "2.0"
+}

@@ -1,0 +1,5 @@
+Utterance	Intents
+i want to talk to a human	l_VAPOCen_Email, l_VAPOCen_General
+next page	l_VAPOCen_Calendar, l_VAPOCen_Email
+go back	l_VAPOCen_Calendar, l_VAPOCen_Email
+don't do that	l_VAPOCen_Email, l_VAPOCen_General

@@ -1,0 +1,41 @@
+﻿@model WebChatViewModel
+@{
+    ViewData["Title"] = "Web Chat";
+}
+    <div class="content-row">
+        <div id="webchat" role="main"></div>
+    </div>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/CognitiveServices.js"></script>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script>
+        var userId = '@Model.UserID';
+        var userName = '@Model.UserName';
+
+        // Initials are captured used for user avatar
+        var userInitials = userName.replace(/(\S)\S*\s*/ig, "$1");
+
+        const speechOptions = {
+            speechRecognizer: new CognitiveServices.SpeechRecognizer({ subscriptionKey: '@Model.SpeechKey' }),
+            speechSynthesizer: new CognitiveServices.SpeechSynthesizer({
+                gender: CognitiveServices.SynthesisGender.Female,
+                subscriptionKey: '@Model.SpeechKey',
+                voiceName: '@Model.VoiceName'
+            })
+        };
+
+        var user = { id: userId, role: 'user'};
+
+        var bot = window.WebChat.createDirectLine({
+            token: '@Model.DirectLineToken',
+            userID: userId,
+            speechOptions: speechOptions,
+            resize: 'detect'
+        });
+
+        window.WebChat.renderWebChat({
+            directLine: bot,
+            userID: userId,
+            botAvatarInitials: 'VA',
+            userAvatarInitials: userInitials
+        }, document.getElementById('webchat'));
+    </script>

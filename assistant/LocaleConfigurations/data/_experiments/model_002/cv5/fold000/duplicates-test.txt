@@ -1,0 +1,5 @@
+Utterance	Intents
+don't do it	l_VAPOCen_Email, l_VAPOCen_General
+help me	l_VAPOCen_Email, l_VAPOCen_General
+next	l_VAPOCen_Calendar, l_VAPOCen_ToDo
+exit	l_VAPOCen_Email, l_VAPOCen_General

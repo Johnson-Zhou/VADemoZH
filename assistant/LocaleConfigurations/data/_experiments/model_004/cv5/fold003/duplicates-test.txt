@@ -1,0 +1,3 @@
+Utterance	Intents
+good morning	l_VAPOCen_Email, l_VAPOCen_General
+hey	l_VAPOCen_Email, l_VAPOCen_General

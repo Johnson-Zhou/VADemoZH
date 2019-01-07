@@ -1,0 +1,9 @@
+Utterance	Intents
+abort	l_VAPOCen_Email, l_VAPOCen_General
+next	l_VAPOCen_Calendar, l_VAPOCen_General, l_VAPOCen_ToDo
+show next	l_VAPOCen_General, l_VAPOCen_ToDo
+yes	l_VAPOCen_ToDo, q_FAQ
+good morning	l_VAPOCen_Email, q_FAQ
+ok thanks	l_VAPOCen_Email, l_VAPOCen_General
+contact support	l_VAPOCen_Email, l_VAPOCen_General
+never mind	l_VAPOCen_Email, l_VAPOCen_General

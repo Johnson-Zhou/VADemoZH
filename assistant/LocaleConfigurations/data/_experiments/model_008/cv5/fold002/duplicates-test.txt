@@ -1,0 +1,5 @@
+Utterance	Intents
+i'm stuck	l_VAPOCen_Email, l_VAPOCen_General
+disregard	l_VAPOCen_Email, l_VAPOCen_General
+hi	l_VAPOCen_Email, l_VAPOCen_General
+don't do that	l_VAPOCen_Email, l_VAPOCen_General

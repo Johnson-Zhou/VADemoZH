@@ -1,0 +1,5 @@
+Utterance	Intents
+restart	l_VAPOCen_Email, l_VAPOCen_General
+ok bye	l_VAPOCen_Email, l_VAPOCen_General
+ok thanks	l_VAPOCen_Email, l_VAPOCen_General
+never mind	l_VAPOCen_Email, l_VAPOCen_General

@@ -1,0 +1,3 @@
+Utterance	Intents
+last	l_VAPOCen_Email, l_VAPOCen_General
+show next	l_VAPOCen_General, l_VAPOCen_ToDo

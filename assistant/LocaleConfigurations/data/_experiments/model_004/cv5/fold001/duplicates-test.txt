@@ -1,0 +1,4 @@
+Utterance	Intents
+previous	l_VAPOCen_Calendar, l_VAPOCen_Email, l_VAPOCen_General
+last	l_VAPOCen_Email, l_VAPOCen_General
+good evening	l_VAPOCen_Email, l_VAPOCen_General

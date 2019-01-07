@@ -1,0 +1,3 @@
+Utterance	Intents
+help	l_VAPOCen_Email, l_VAPOCen_General
+abort	l_VAPOCen_Email, l_VAPOCen_General

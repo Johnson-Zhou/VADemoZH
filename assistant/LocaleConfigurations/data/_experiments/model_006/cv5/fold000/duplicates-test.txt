@@ -1,0 +1,3 @@
+Utterance	Intents
+restart	l_VAPOCen_Email, l_VAPOCen_General
+help please	l_VAPOCen_Email, l_VAPOCen_General

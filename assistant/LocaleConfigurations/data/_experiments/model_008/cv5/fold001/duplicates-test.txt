@@ -1,0 +1,4 @@
+Utterance	Intents
+hello bot	l_VAPOCen_Email, l_VAPOCen_General
+what can you do	l_VAPOCen_Email, l_VAPOCen_General
+i want to talk to a human	l_VAPOCen_Email, l_VAPOCen_General

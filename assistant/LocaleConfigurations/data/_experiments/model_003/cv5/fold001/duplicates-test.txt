@@ -1,0 +1,5 @@
+Utterance	Intents
+don't	l_VAPOCen_Email, l_VAPOCen_General
+go to previous	l_VAPOCen_Email, l_VAPOCen_General
+cancel	l_VAPOCen_General, l_VAPOCen_ToDo
+ok thanks	l_VAPOCen_Email, l_VAPOCen_General

@@ -1,0 +1,4 @@
+Utterance	Intents
+log out	l_VAPOCen_Email, l_VAPOCen_General
+stop	l_VAPOCen_Email, l_VAPOCen_General
+please stop	l_VAPOCen_Email, l_VAPOCen_General

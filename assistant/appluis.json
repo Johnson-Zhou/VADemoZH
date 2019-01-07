@@ -1,0 +1,19 @@
+{
+    "type": "dispatch",
+    "serviceIds": [
+        "general",
+        "calendar",
+        "email",
+        "todo",
+        "pointofinterest",
+        "faq",
+        "weather"
+    ],
+    "name": "VAPOCen_Dispatch",
+    "appId": "5cd50c33-62f1-4aa4-a353-0cd21b3399a0",
+    "authoringKey": "c236b1ae109b45ca859daad4b44b1387",
+    "subscriptionKey": "c236b1ae109b45ca859daad4b44b1387",
+    "version": "Dispatch",
+    "region": "westus",
+    "id": "dispatch"
+}

@@ -1,0 +1,96 @@
+{
+    "name": "VAPOCen",
+    "description": "",
+    "services": [
+        {
+            "type": "luis",
+            "name": "VAPOCen_General",
+            "appId": "54354708-3417-45f5-9ddd-29c4d767a851",
+            "authoringKey": "zMVn+r53g8Pythl4mSswQg==!76nlNm8SHnNiQvcVh+WXB9hO4s5MyNpNh+RGmnaaVz95i95R7NWtno3ArGsJIVeF",
+            "subscriptionKey": "hYFz0lXWva1F6kID884yFg==!Xx3Rs1N6lAcbcwQpipNLxyGFj4RSxq4dzQchZHgVNt/m37haz4mxzQJlI+3jlglQ",
+            "version": "0.1",
+            "region": "westus",
+            "id": "general"
+        },
+        {
+            "type": "luis",
+            "name": "VAPOCen_Calendar",
+            "appId": "e557a60a-6bcb-40f5-9ae5-3b2050ef5a63",
+            "authoringKey": "Gzcn06UVyCY+Sl+JyNwYfg==!28oXB6w6xOWHZOMDxskSH3KztF+wW01aPtgIdW3LCpA3wfM2ID2jMJrA0xIpnsZd",
+            "subscriptionKey": "+h1HhzfjJUzZbIF6R3F6XA==!rOglca8vOvyubqp8vtFrXo7lYH2mBzvn+NyNFngHSYHFcHrpj2XYjm2IMXmcs589",
+            "version": "0.1",
+            "region": "westus",
+            "id": "calendar"
+        },
+        {
+            "type": "luis",
+            "name": "VAPOCen_Email",
+            "appId": "6ceee347-aab8-41d9-8c59-3f386997835f",
+            "authoringKey": "ZTz/5w+VAPAzEsoeH6e19A==!ojAEZgP84Jl4vyAT+B2GPVNc25ricEVpJeDGRIJYAUOFFSSqdvCIvGplpyptU5UX",
+            "subscriptionKey": "5nsncT9dlKBedeD4b+tIaw==!PLxVJTuAhtNYTR8rUBdPWs5P3PgoeJu0PMJwHBFnpad5vCjENEsAvX2auQoOxamX",
+            "version": "0.1",
+            "region": "westus",
+            "id": "email"
+        },
+        {
+            "type": "luis",
+            "name": "VAPOCen_ToDo",
+            "appId": "d9df192d-1334-4e8e-a76f-a7a4d0078ae8",
+            "authoringKey": "SylriOR6wiUDfIxy6J7Rgw==!/9y0m3krUWEn51w2TP0TD6OjfjDca+HsOQ9pvqtGl9Z+euFcYhQv5A4TcIUrbSAx",
+            "subscriptionKey": "su/ZGrWoERWQAwsHWhL5Rw==!N7FDwrO+YZ3EZA2fQ1W4daSOfWLF5lxOd4RcrIGmXPrrAITbMksbZzD/oI+qbGI0",
+            "version": "0.1",
+            "region": "westus",
+            "id": "todo"
+        },
+        {
+            "type": "luis",
+            "name": "VAPOCen_PointOfInterest",
+            "appId": "24524b14-d11c-466d-8f97-3cd533182737",
+            "authoringKey": "6sMNwVQoCiIGa4iFs3cKzg==!VocKUGUcDTPm8Y3OMzuKXZNfqeotEhZh/2JLk30XfltuPxWtBGjmTu57knjOYLgf",
+            "subscriptionKey": "kEHe0hLXQUKin94ZTyoA+g==!hXHf6w+UrPjYTgKgN8rGaecPmLSIUQhpyKNiiDqOgnYQecfw7nw8MIarsWlewreG",
+            "version": "0.1",
+            "region": "westus",
+            "id": "pointofinterest"
+        },
+        {
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40",
+            "subscriptionKey": "zXWIdPaCT7IwY79AOPtW3g==!KViVx40thSY6cUVIPZSNjLc6KDfdQxGj8eDaQG6H1C1qqj0upZwIjiWVQJzYUmT7",
+            "endpointKey": "gog2xcZBYpUhQhDRHwXgrA==!zluXJ/o/3m4KfErNPg9W7uBu2ppEORqF3IhFZEmHMO7f7KJOrFQiUglGLtuCxA36",
+            "hostname": "https://vapocen-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "general",
+                "calendar",
+                "email",
+                "todo",
+                "pointofinterest",
+                "faq",
+	"weather"
+            ],
+            "name": "VAPOCen_Dispatch",
+            "appId": "5cd50c33-62f1-4aa4-a353-0cd21b3399a0",
+            "authoringKey": "DYeePecyGc6Lr4Y+pcOpsA==!/8a1CS5twouvHYK8B8+FGf/TCYf0p5h16BGZ+BE7CFb4tGove+3JkU3d3d8pe7hK",
+            "subscriptionKey": "0+fSqqpVUL/vaznfDP/xRg==!nhuZ+C0vQnmJ3D3+t2kPPzFbxlDaWVwe4FyecTLmiysm02GtpuAxY/OsxOfrhnJp",
+            "version": "Dispatch",
+            "region": "westus",
+            "id": "dispatch"
+        },
+        {
+            "type": "luis",
+            "name": "VAPOCen_Weather",
+            "appId": "e18ca9cc-64b5-4b1e-8e52-21326acda05d",
+            "version": "0.1",
+            "authoringKey": "nkJWplodd1P89PX3Tf1EFw==!xpVG3pmntWaBpvzCaNEOkGXtJNwGKOStu1c/1kAysM0gJ4vFwDAsBVSHZuzv42+v",
+            "subscriptionKey": "JfAptpwM0+tjhOQFqHDJxQ==!2D14JrEORH6UfymPMzBKxLZBQcbC4E3My3VT6rqOaht6Y36azw4ZWSJ8ocPQtE/X",
+            "region": "westus",
+            "id": "weather"
+        }
+    ],
+    "padlock": "nQNBqsC33n3zLiYUNQDbIw==!gYOT4MVem5Uxz3uJ1F8SMWaIs3zeUZstrsOsjpQe234/QUaSWaEIgEE4+Rhx0clu",
+    "version": "2.0"
+}

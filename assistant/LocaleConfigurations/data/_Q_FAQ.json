@@ -1,0 +1,148 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 266,
+      "answer": "**Power Operated Window Switch**\n\n1.  Front Left Window Switch\n2.  Front Right Window Switch\n3.  Rear Left Window Switch\n4.  Rear Right Window Switch\n5.  Rear Window Isolation Switch",
+      "source": "MGtest.pdf",
+      "questions": [
+        "How to do Power Operated Window Switch?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 267,
+      "answer": "**Window Operation**\n\n***Ensure children are kept clear when raising or lowering a window.***  \n\n***Improper use or activation of the electric windows or sunroof by children could cause serious harm or even death. It is the responsibility of the driver and adult passengers to ensure that when carrying children the necessary steps are taken to isolate the window and sunroof operation.***  \n\n***This should include the removal of the ignition key when children are left alone in the vehicle.***  \n\n***Special care should be taken if operating any form of automatic global opening or closing function. It is essential to check that all items that will be operated are clear of obstruction.***  \n\n***Failure to ensure this could result in serious injury.***  \n\n***the motor. If this occurs, please wait until the motor cools down.***  \n\n***Note: If the battery is disconnected, the ‘One-Touch’ and ‘Anti-Trap’ features will be lost, the message centre will display 'Please Initialise Driver Window'.***  \n\n***To restore this feature, fully open and then fully close the window holding the switch for 5 seconds in the closed position.***",
+      "source": "MGtest.pdf",
+      "questions": [
+        "How to do Window Operation?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 268,
+      "answer": "**Front Courtesy and Map Reading Lights**\n\n2 1 2  \n\n**Manual Operation**",
+      "source": "MGtest.pdf",
+      "questions": [
+        "What are Front Courtesy and Map Reading Lights?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 269,
+      "answer": "**Automatic Operation 1**\n\nCourtesy light illumination occurs automatically whenever the following occur.  \n\n*   The car is unlocked.\n*   Any door or the tail gate is opened.\n*   The ignition is switched off, providing the sidelights have been illuminated during the previous 30 seconds.  \n\n***Note: If a door or the tailgate is left open for longer than 15 minutes, a ‘time-out' function will extinguish the interior lights automatically to prevent the battery from discharging.***  \n\nIf necessary, the automatic illumination features described above can be switched off, as follows:  \n\nWhen the ignition is in positions I or II, press and hold the courtesy light switch (1) for 5 seconds. The interior lights will flash and then extinguish. Automatic operation is suspended (manual operation is still available). To restore automatic operation, repeat the above process.  \n\nPress the switch (1) to turn the courtesy light on, press again to turn off. Press one of the switches (2) to turn on  \n\na map reading light, press again to turn off.",
+      "source": "MGtest.pdf",
+      "questions": [
+        "How to do Automatic Operation?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 270,
+      "answer": "**Rear Courtesy Light**\n\nPress the switch (arrowed) to illuminate the courtesy light, press again to switch off.",
+      "source": "MGtest.pdf",
+      "questions": [
+        "What is the Rear Courtesy Light?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 271,
+      "answer": "**Front Console Power Socket**\n\n***Please ensure the socket lid is inserted when the power socket is not in use. This will ensure no debris or foreign objects enter the socket preventing its use or cause short circuits.***  \n\nThe front console power socket is located below the 1 hazard warning lamp switch. When the ignition switch is in position I or II, raise the ashtray cover plate and extract the plug to use the socket.  \n\nPlease fit the power socket plug after use.  \n\n***Note: The voltage of the front console power socket is***  \n\n***12 volt, and the power rating is 120 watt.***  \n\n***Note: Extended use of the accessory power socket when the engine is switched off will cause premature discharging of the vehicle battery.***",
+      "source": "MGtest.pdf",
+      "questions": [
+        "What is Front Console Power Socket?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 272,
+      "answer": "How do I raise a bug?\n\nRaise an issue on the [GitHub repo](https://github.com/Microsoft/AI/blob/master/solutions/Virtual-Assistant/docs/README.md)",
+      "source": "Editorial",
+      "questions": [
+        "How do I raise a bug?\n\n"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 273,
+      "answer": "If\nthe tire pressure monitor lamp comes on in yellow then the tire pressure is off\nabout 10% or more",
+      "source": "Editorial",
+      "questions": [
+        "What is that yellow light? "
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 274,
+      "answer": "The\nVirtual Assistant recently released new localisation for the Virtual Assistant\nand Skills enabling usage in English, French, Italian, German, Spanish and\nChinese Simplified.",
+      "source": "Editorial",
+      "questions": [
+        "What's New"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 275,
+      "answer": "##\nOverview\nThe Task Skill provides Task related capabilities to a Virtual\nAssistant. The most common scenarios have been implemented in this first\nrelease with additional scenarios in development.\n\n## Supported\nScenarios\nThe following scenarios are currently supported by the Skill:\n\n-\nAdd a Task\n- Remind me to pickup milk\n- Add task\n- Find Tasks\n- What tasks\ndo I have",
+      "source": "Editorial",
+      "questions": [
+        "What can the ToDo Skill do? "
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 276,
+      "answer": "A\nbroad set of common capabilities exist which today, which require each\ndeveloper to build themselves. Our Virtual Assistant solution includes a new\nSkill capability enabling new capabilities to be plugged into an Virtual\nAssistant through configuration only and provide an authentication mechanism\nfor Skills to request tokens for down-stream activities.\nFind out more\n[here](https://github.com/Microsoft/AI/blob/master/solutions/Virtual-Assistant/docs/virtualassistant-skills.md).",
+      "source": "Editorial",
+      "questions": [
+        "What is a Skill?"
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    },
+    {
+      "id": 277,
+      "answer": "We\nhave seen significant need from our customers and partners to deliver a\nconversational assistant tailored to their brand, personalized to their\ncustomers and made available across a broad range of conversational canvases\nand devices. Continuing Microsoft open-sourced approach toward Bot Framework\nSDK, the open source Custom Personal Assistant solution provides full control\nover the end user experience built on a set of foundational capabilities.\nAdditionally, the experience can be infused with intelligence about the\nend-user and any device/ecosystem information for a truly integrated and\nintelligent experience.\nFind out more\n[here](https://github.com/Microsoft/AI/blob/master/solutions/Virtual-Assistant/docs/README.md).",
+      "source": "Editorial",
+      "questions": [
+        "What is a Virtual Assistant? "
+      ],
+      "metadata": [],
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "792d85dd-a6c7-496a-b444-43b71bbf1f40"
+    }
+  ]
+}

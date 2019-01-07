@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.0/css/fabric.min.css" />
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+        td, th {
+            padding-bottom: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 15 !important;
+            margin: 0 !important;
+        }
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            border-top:none;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar {
+            border: none;
+            min-height: 48px;
+        }
+        .navbar-inverse {
+            background-color: #0078D7 !important;
+            color: #fff !important;
+        }
+        .navbar-header {
+            padding-top: 10px;
+        }
+        .navbar-header a {
+            color: #fff;
+        }
+        #dispatchName {
+            margin-right: 150px;
+        }
+        .nav-pills > li > a {
+            border-radius: 0;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 15px;
+            color: #333;
+        }
+        .nav-pills > li.active > a,
+        .nav-pills > li.active > a:hover,
+        .nav-pills > li.active > a:focus {
+            color: #333;
+            background-color: #fff !important;
+            font-weight: 600 !important;
+            border-bottom-color: #0078D7;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+        }
+        .nav-pills > .active > a > .badge {
+            background-color: #fff !important;
+            font-weight: 600 !important;
+        }
+        .nav-pills > li:hover > a:hover {
+            background-color: #fff !important;
+        }
+    </style>
+</head>
+<body class="ms-Fabric ms-font-m">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header ms-fontSize-l">
+                <span id="dispatchName">VAPOCen_Dispatch</span>
+                <span><a href="https://www.luis.ai/applications/5cd50c33-62f1-4aa4-a353-0cd21b3399a0/versions/Dispatch/dashboard" target="_blank">LUIS Application ID: 5cd50c33-62f1-4aa4-a353-0cd21b3399a0</a></span>
+            </div>
+        </div>
+    </nav>
+    <br /><br /><br />
+    <div class="container body-content">
+        <span class="ms-fontSize-xl ms-fontWeight-semibold">Dispatch Summary</span>
+        <span style="float:right"><a href="https://www.luis.ai/applications/5cd50c33-62f1-4aa4-a353-0cd21b3399a0/versions/Dispatch/dashboard" target="_blank">View in LUIS portal</a></span>
+        <div>
+            <p><p>Please check below for intent statistics and duplicate utterances.</p><p><strong>Suggestions for model improvement</strong>:</p><ul style = "list-style-type:square"><li>Consider removing duplicate utterances from the intents <strong>l_VAPOCen_General, l_VAPOCen_Email, l_VAPOCen_Calendar</strong>. Please check the Duplicates tab for more details.</li><li>Consider adding more utterances to the intents <strong>q_FAQ, l_VAPOCen_Weather</strong>, as their utterance count is low.</li><li>Consider adding more utterances to the intents <strong>q_FAQ, l_VAPOCen_Weather, l_VAPOCen_General</strong>, as their number of utterances is considerably lower than the other intents.</li></ul></p>
+            <p>To improve dispatch, please update the source models and retrain the dispatch model by running the command "dispatch refresh".</p>
+        </div>
+        <br />
+        <ul class="nav nav-pills ms-fontSize-mPlus ms-fontWeight-semibold" id="modelAnalysis" role="tablist" style="padding-bottom:10px">
+            <li class="nav-item active">
+                <a class="nav-link active" id="intentutterancestatistics-tab" data-toggle="tab" href="#intentutterancestatistics" role="tab" aria-controls="intentutterancestatistics" aria-selected="true"><strong>Intent Statistics</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" id="duplicates-tab" data-toggle="tab" href="#duplicates" role="tab" aria-controls="duplicates" aria-selected="true"><strong>Duplicates</strong></a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="intentutterancestatistics" role="tabpanel" aria-labelledby="intentutterancestatistics-tab">
+                <p>Intents and utterances statistics</p>
+                <p>
+                    <table class="table"><tr><th>Intent</th><th>Utterance Count</th><th>Utterance Average Length</th><th>Utterance Maximum Length</th><th>Utterance Minimum Length</th><th>Utterance Length StdDev</th></tr><tr><td>l_VAPOCen_Calendar</td><td>973</td><td>33.388</td><td>123</td><td>1</td><td>14.868</td></tr><tr><td>l_VAPOCen_Email</td><td>520</td><td>28.113</td><td>100</td><td>1</td><td>15.463</td></tr><tr><td>l_VAPOCen_General</td><td>40</td><td>15.875</td><td>33</td><td>5</td><td>6.696</td></tr><tr><td>l_VAPOCen_PointOfInterest</td><td>11949</td><td>45.722</td><td>154</td><td>5</td><td>23.581</td></tr><tr><td>l_VAPOCen_ToDo</td><td>308</td><td>28.623</td><td>68</td><td>2</td><td>12.637</td></tr><tr><td>l_VAPOCen_Weather</td><td>36</td><td>30.5</td><td>55</td><td>12</td><td>11.882</td></tr><tr><td>q_FAQ</td><td>12</td><td>28.167</td><td>47</td><td>10</td><td>9.88</td></tr></table>
+                </p>
+            </div>
+            <div class="tab-pane" id="duplicates" role="tabpanel" aria-labelledby="duplicates-tab">
+                <p>Utterances in multiple intents</p>
+                <p>
+                    <table class="table"><tr><th>Utterance</th><th>Intents</th></tr><tr><td>disregard</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>next</td><td>l_VAPOCen_Calendar, l_VAPOCen_General, l_VAPOCen_ToDo</td></tr><tr><td>what can you help me with</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>undo</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>help me</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>stop</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>hi</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>next page</td><td>l_VAPOCen_Calendar, l_VAPOCen_Email</td></tr><tr><td>ok bye</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>start over</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>never mind</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>move back</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>i want to talk to a human</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>logout</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>hey</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>i'm stuck</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>don't</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>exit</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>restart</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>help</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>log out</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>contact support</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>don't do it</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>show next</td><td>l_VAPOCen_General, l_VAPOCen_ToDo</td></tr><tr><td>help please</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>good night</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>last</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>how are you today</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>hiya</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>i would like to cancel</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>goodbye</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>previous</td><td>l_VAPOCen_Calendar, l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>hello</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>hello bot</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>what do i do now</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>why doesn't this work</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>abort</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>talk to a human</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>can i talk to a person</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>transfer me please</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>go back</td><td>l_VAPOCen_Calendar, l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>how are you</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>cancel</td><td>l_VAPOCen_Email, l_VAPOCen_General, l_VAPOCen_ToDo</td></tr><tr><td>go to previous</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>forget me</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>that's it thanks</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>good morning</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>good evening</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>bye</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>please stop</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>ok thanks</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>what can you do</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>sign out</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>what can i say</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>signout</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr><tr><td>don't do that</td><td>l_VAPOCen_Email, l_VAPOCen_General</td></tr></table>
+                </p>
+            </div>
+        </div>
+        <br /><br />
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>
+</body>
+</html>

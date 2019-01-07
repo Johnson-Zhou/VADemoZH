@@ -1,0 +1,4 @@
+Utterance	Intents
+goodbye	l_VAPOCen_General, q_FAQ
+hey	l_VAPOCen_Email, l_VAPOCen_General
+i don't understand	l_VAPOCen_General, q_FAQ

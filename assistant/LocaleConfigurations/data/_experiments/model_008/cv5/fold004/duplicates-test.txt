@@ -1,0 +1,3 @@
+Utterance	Intents
+contact support	l_VAPOCen_Email, l_VAPOCen_General
+good morning	l_VAPOCen_Email, l_VAPOCen_General

@@ -1,0 +1,35 @@
+Utterance	Intents
+previous	l_VAPOCen_Calendar, l_VAPOCen_Email, l_VAPOCen_General
+what can you do	l_VAPOCen_Email, l_VAPOCen_General
+please stop	l_VAPOCen_Email, l_VAPOCen_General
+i want to talk to a human	l_VAPOCen_Email, l_VAPOCen_General
+undo	l_VAPOCen_Email, l_VAPOCen_General
+sign out	l_VAPOCen_Email, l_VAPOCen_General
+forget me	l_VAPOCen_Email, l_VAPOCen_General
+go to previous	l_VAPOCen_Email, l_VAPOCen_General
+transfer me please	l_VAPOCen_Email, l_VAPOCen_General
+i would like to cancel	l_VAPOCen_Email, l_VAPOCen_General
+start over	l_VAPOCen_Email, l_VAPOCen_General
+good morning	l_VAPOCen_Email, l_VAPOCen_General
+don't do that	l_VAPOCen_Email, l_VAPOCen_General
+cancel	l_VAPOCen_General, l_VAPOCen_ToDo
+ok thanks	l_VAPOCen_Email, l_VAPOCen_General
+what do i do now	l_VAPOCen_Email, l_VAPOCen_General
+why doesn't this work	l_VAPOCen_Email, l_VAPOCen_General
+i'm stuck	l_VAPOCen_Email, l_VAPOCen_General
+ok bye	l_VAPOCen_Email, l_VAPOCen_General
+hello bot	l_VAPOCen_Email, l_VAPOCen_General
+show next	l_VAPOCen_General, l_VAPOCen_ToDo
+disregard	l_VAPOCen_Email, l_VAPOCen_General
+never mind	l_VAPOCen_Email, l_VAPOCen_General
+what can you help me with	l_VAPOCen_Email, l_VAPOCen_General
+stop	l_VAPOCen_Email, l_VAPOCen_General
+hi	l_VAPOCen_Email, l_VAPOCen_General
+last	l_VAPOCen_Email, l_VAPOCen_General
+how are you today	l_VAPOCen_Email, l_VAPOCen_General
+contact support	l_VAPOCen_Email, l_VAPOCen_General
+signout	l_VAPOCen_Email, l_VAPOCen_General
+what can i say	l_VAPOCen_Email, l_VAPOCen_General
+next	l_VAPOCen_Calendar, l_VAPOCen_ToDo
+help please	l_VAPOCen_Email, l_VAPOCen_General
+don't	l_VAPOCen_Email, l_VAPOCen_General

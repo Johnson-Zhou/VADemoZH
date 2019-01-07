@@ -1,0 +1,2 @@
+Utterance	Intents
+stop	l_VAPOCen_Email, l_VAPOCen_General

@@ -1,0 +1,38 @@
+﻿{
+  "AskDeletionConfirmation": {
+    "replies": [
+      {
+        "text": "您确定您要删除事项：{toDoTask}?",
+        "speak": "您确定您要删除事项：{toDoTask}?"
+      }
+    ],
+    "inputHint": "expectingInput"
+  },
+  "AskDeletionAllConfirmation": {
+    "replies": [
+      {
+        "text": "您确定您要删除所有{listType}任务？",
+        "speak": "您确定您要删除所有{listType}任务？"
+      }
+    ],
+    "inputHint": "expectingInput"
+  },
+  "AfterTaskDeleted": {
+    "replies": [
+      {
+        "text": "已经为您删除事项{taskContent}。",
+        "speak": "已经为您删除事项{taskContent}。"
+      }
+    ],
+    "inputHint": "acceptingInput"
+  },
+  "AfterAllTasksDeleted": {
+    "replies": [
+      {
+        "text": "已经为您清空{listType}列表。",
+        "speak": "已经为您清空{listType}列表。"
+      }
+    ],
+    "inputHint": "acceptingInput"
+  }
+}

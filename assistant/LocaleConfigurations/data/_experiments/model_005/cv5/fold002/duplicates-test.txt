@@ -1,0 +1,3 @@
+Utterance	Intents
+hey	l_VAPOCen_Email, l_VAPOCen_General
+cancel	l_VAPOCen_Email, l_VAPOCen_General

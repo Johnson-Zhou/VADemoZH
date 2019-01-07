@@ -1,0 +1,8 @@
+Label	LabelName	Samples
+0	l_VAPOCen_Calendar	973
+1	l_VAPOCen_Email	523
+2	l_VAPOCen_General	94
+3	l_VAPOCen_PointOfInterest	11949
+4	l_VAPOCen_ToDo	311
+5	l_VAPOCen_Weather	43
+6	q_FAQ	20

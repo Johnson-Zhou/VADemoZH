@@ -1,0 +1,8 @@
+Intent	Utterance Count	Utterance Average Length	Utterance Maximum Length	Utterance Minimum Length	Utterance Length StdDev
+l_VAPOCen_Calendar	973	33.388	123	1	14.868
+l_VAPOCen_Email	520	28.113	100	1	15.463
+l_VAPOCen_General	40	15.875	33	5	6.696
+l_VAPOCen_PointOfInterest	11949	45.722	154	5	23.581
+l_VAPOCen_ToDo	308	28.623	68	2	12.637
+l_VAPOCen_Weather	28	37.893	64	17	12.345
+q_FAQ	6	26.167	37	19	6.306

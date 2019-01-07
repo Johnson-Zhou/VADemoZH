@@ -1,0 +1,20 @@
+﻿{
+  "AfterToDoTaskCompleted": {
+    "replies": [
+      {
+        "text": "已经为您完成此事项。",
+        "speak": "已经为您完成此任务。"
+      }
+    ],
+    "inputHint": "acceptingInput"
+  },
+  "AfterAllToDoTasksCompleted": {
+    "replies": [
+      {
+        "text": "已经为您完成所有事项。",
+        "speak": "已经为您完成所有事项。"
+      }
+    ],
+    "inputHint": "acceptingInput"
+  }
+}

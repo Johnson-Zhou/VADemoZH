@@ -1,0 +1,68 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Virtual Assistant POC</title>
+    <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="bot"></div>
+    <script src="Scripts/botchat.js"></script>
+    <script src="Scripts/CognitiveServices.js"></script>
+    <script>
+        const params = BotChat.queryParams(location.search);
+        var org = params['org'] || "user";
+        var name = params['name']
+        // alert(org + ", " + name);
+
+
+        function makeid() {
+            var text = org + "_";
+            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+            for (var i = 0; i < 8; i++)
+                text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+            return text;
+        }
+
+
+        const user = {
+            id: params['userid'] || makeid(),
+            name: params['username'] || makeid()
+        };
+        const bot = {
+            id: params['botid'] || 'botid',
+            name: params['botname'] || 'botname'
+        };
+        window.botchatDebug = params['debug'] && params['debug'] === 'true';
+
+        const speechOptions = {
+            speechRecognizer: new CognitiveServices.SpeechRecognizer({ locale: 'en-US', subscriptionKey: 'f3a277761ed14ae485f1cc0c7a7c9e2e' }),
+          //  speechRecognizer: new CognitiveServices.SpeechRecognizer({ locale: 'en-US', subscriptionKey: '28348d36eaf4483d8d9e9866f34a7821' }),
+            speechSynthesizer: new BotChat.Speech.BrowserSpeechSynthesizer()
+        };
+
+        BotChat.App({
+            bot: bot,
+            locale: params['locale'],
+            resize: 'detect',
+            // sendTyping: true,    // defaults to false. set to true to send 'typing' activities to bot (and other users) when user is typing
+            speechOptions: speechOptions,
+            user: user,
+            directLine: {
+                domain: params['domain'],
+                secret: params['s'] || 'B-inBW4WNd4.cwA.65Q.tBTTZeeO3LDQJUUkt3FE5YjlMlQ3Zrw1-m8kz9Pcss4',
+            //    secret: params['s'] || '2m1ZiLIg9fw.cwA.jw8.otmMdvAsTagOdv8kIXNFTz0KwSn4g2mjjGJOi2ygfPs',
+                token: params['t'],
+                webSocket: params['webSocket'] && params['webSocket'] === 'true' // defaults to true
+            }
+        }, document.getElementById('bot'));
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+Utterance	Intents
+why doesn't this work	l_VAPOCen_Email, l_VAPOCen_General
+good evening	l_VAPOCen_Email, l_VAPOCen_General
+what do i do now	l_VAPOCen_Email, l_VAPOCen_General

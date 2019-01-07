@@ -1,0 +1,94 @@
+abort
+advance
+back to the last one
+bring the previous one
+bye
+can i do that again
+can i talk to a person
+can you help me
+cancel
+come to the last
+contact support
+could you show the next one
+disregard
+don't
+don't do it
+don't do that
+exit
+forget me
+go back
+go forward
+go on
+go to next
+go to previous
+go to the last one
+go to the next one please
+go to the next page
+good evening
+good morning
+good night
+goodbye
+hello
+hello bot
+help
+help me
+help please
+hey
+hi
+hiya
+how are you
+how are you today
+i don't understand
+i need to change something
+i need to go to the next one
+i want to talk to a human
+i would like to cancel
+i'm stuck
+last
+last one
+log out
+logout
+move back
+move forward
+move on
+move on next
+move to the next one
+my water bottle is green
+never mind
+next
+next item
+next one
+next please
+ok bye
+ok thanks
+old one
+paper planes in the sky
+please stop
+previous
+previous one
+previous one please
+restart
+show me next
+show me previous
+show me the next
+show next
+show the next
+show the next one
+sign out
+signout
+start over
+stop
+talk to a human
+that's it thanks
+the last one
+the next email
+the previous one
+transfer me please
+turtles like to swim in the ocean
+undo
+what can i say
+what can you do
+what can you help me with
+what do i do now
+what is the previous
+why doesn't this work

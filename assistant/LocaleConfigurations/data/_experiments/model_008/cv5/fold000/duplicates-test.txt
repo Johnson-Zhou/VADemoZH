@@ -1,0 +1,3 @@
+Utterance	Intents
+log out	l_VAPOCen_Email, l_VAPOCen_General
+ok bye	l_VAPOCen_Email, l_VAPOCen_General
